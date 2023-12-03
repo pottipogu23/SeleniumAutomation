@@ -16,6 +16,7 @@ public class GoogleTest {
 	@Test
 	public void HomePageCheck() throws MalformedURLException
 	{
+		//update th desired cap
 		DesiredCapabilities caps = new DesiredCapabilities();
 		caps.setBrowserName("chrome");
 		//caps.setPlatform(Platform.);
